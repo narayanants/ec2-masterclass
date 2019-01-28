@@ -1,0 +1,26 @@
+Security Groups Overview:
+=========================
+
+	- Firewall on the EC2 instances
+	- Regulate
+	
+		- Access to Ports
+		- Authorized or Forbidden IPs - IPv4 or IPv6 
+		- Control of InBound network (from other to the instance)
+		- Control of the Outbound network ( From the instance to the other)
+
+Good to Know:
+=============
+
+	- Can be attached to multiple instances
+	- Locked down to a region / VPC combination
+	- Does live outside the EC2 - if the traffic is blocked the instance won't see it.
+	- Good practice to maintain one separate security group for SSH access.
+	- If your app is not accessible, then its a security group issue.
+	- If the app gives a connection refused error, its an application error.
+	
+	
+	- By default, all inbound traffic is blocked
+	- All outbound traffic is allowed.
+	
+	
