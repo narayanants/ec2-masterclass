@@ -1,0 +1,36 @@
+Network in EC2:
+---------------
+
+What is Network?
+
+	- Concept of how fast the machine can send and receive info from other machines.
+	- Measured in 
+	
+		- Latency
+		- Throughput/ Bandwidth
+		
+	Networking in AWS all done through cables (Ethernet /Optical Fibre)
+	
+When is Network used?
+
+	- Any time your app interacts with the web or other servers.
+	- nload or iftop to find the networking load on your machine.
+
+
+If you network is not fast enough
+
+	- Your app may timeout
+	- Latency may be included
+	
+Examples:
+==========
+
+	- FTP Servers
+	- Apache Kafka
+	- Apache Spark
+	
+Network in EC2:
+================
+
+	- Some EC2 machines have much greater amount of network bandwidth than other EC2 instances
+	
