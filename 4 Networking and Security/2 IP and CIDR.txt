@@ -1,0 +1,46 @@
+IP and CIDR:
+-------------
+
+	- Private IPs can allow certain values
+	
+		10.0.0.0 - 10.255.255.255 (10.0.0.0/8) => Big Networks
+		172.16.0.0 - 172.31.255.255 (172.16.0.0/12) => Default AWS Zone
+		192.168.0.0 - 192.168.255.255 (192.168.0.0/16) => Home Networks
+		
+	- All the rest of the IP on the Internet is Public IP
+	- Security Groups work the same way with public and or private IPs
+	
+	
+Understaing CIDR:
+------------------
+
+	* 192.168.0.0 - 192.168.0.63 
+	- CIDR is what we used for Security Groups Rules
+	
+		0.0.0.0/0 
+		
+CIDR Components:
+=================
+
+	- The Base IP (192.168.0.42)
+	- Subnet Mask (/26)
+	
+	- Base IP represents the IP contained in the IP Range
+	- Subnet masks define how many bits can change in the IP
+	
+	
+	- Subnet Masks can take two forms:
+	
+		-255.255.255.0 
+		- /24 
+		
+		
+Quick Memo:
+------------
+
+	/32 - no IP number can change
+	/24 - last IP number can change
+	/16 - last IP 2 numbers can change
+	/8 - last IP 3 numbers can change
+	/0 - all IP numbers can change
+	
