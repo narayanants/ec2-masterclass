@@ -1,0 +1,12 @@
+General Instances:
+------------------
+
+	- Balance of everything
+	- M type instances (m5 Latest)
+	- Balance of 
+			
+			- CPU
+			- Network 
+			- RAM
+			
+	
