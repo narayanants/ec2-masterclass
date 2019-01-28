@@ -1,0 +1,22 @@
+Burstable Instances:
+--------------------
+
+	T2 - Burstable Instance
+	- When the machine needs to process something unexpected , it can burst, and CPU can be very good
+	
+	- If the machine bursts, it utilized the "burst credits"
+	- If all the credits are gone, then CPU becomes BAD
+	- If the machine stops bursting, credits are accumulated over time.
+	
+	
+Burstable Instances:
+--------------------
+
+	- Amazing in handling unexpected traffic and get the insurance that will be handled correctly.
+	
+	
+CPU Credits:
+=============
+	
+	Credits come with each launch of an instance
+	
