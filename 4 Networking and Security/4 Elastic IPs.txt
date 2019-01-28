@@ -1,0 +1,19 @@
+Elastic IPs:
+------------
+
+	- When you stop and start an EC2 instance, it can change its public IP.
+	- Have a fixed IP for the instance, like Elastic IP
+	- Attach one Elastic IP to one instance
+	- try avoiding the usage of Elastic IP
+	
+		- Poor architectural Decisions
+		- Use Random Public IP or DNS name to it.
+		- Use a ELB and don't use a Public IP
+		
+Pricing:
+--------
+
+	- You don't pay as long as the Elastic IP is attached to a running EC2 instance.
+	- You start paying if the EC2 instance is stopped.
+	
+	
