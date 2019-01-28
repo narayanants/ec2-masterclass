@@ -1,0 +1,37 @@
+What is RAM?
+-------------
+
+* RAM( Random Access Memory ) is the computer "hot" memory.
+* Disk  which is the computer "Cold" Memory\
+
+* RAM is meant as a speed up in a computer.
+
+	- very expensive
+	- very fast
+	- Often used to cache objects
+	- gets emptied and lost at each machine's reboot.
+	
+When is the RAM Used?
+----------------------
+
+* Any time you app stores data and objects "in-memory", the RAM is used.
+* A Small Amount of RAM is used for Running Applications.
+* You can use the "top" command to find the current amount of RAM being used.
+* An in-memory data framework such as "Apache Spark" will use a lot of RAM.
+
+
+IF the RAM is not large enough, you will get either:
+	
+	- OutOfMemory Error
+	- RAM will extend to the disk, its called Swapping
+	
+
+	
+RAM in EC2:
+============
+
+* R Generation Instances come with a LOT of RAM
+* Use them only if the application requires a lot of memory.
+* free -m 
+
+
