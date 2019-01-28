@@ -1,0 +1,12 @@
+EC2 User Data :
+===============
+
+- Bootstrap Scripts - User Data 
+- Bootstrapping means launching commands before the machine starts
+- Script is run only once at the instance first start
+- EC2 data is used  to automate tasks such as 
+
+	- Installing Updates
+	- Installing Software
+	- Downloading common files from the internet
+	
