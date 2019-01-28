@@ -1,0 +1,23 @@
+Private vs Public IP (Ipv4):
+==============================
+
+- Networking has 2 sorts of IP Addresses IPv4 and IPv6
+- 192.168.1.1
+- IPv6 is newer and solves problems for the Internet of Things (IoT)
+- IPv4 allows for 3.7 billion different addresses in the public space
+
+
+Public IP:
+===========
+
+- Machines can be identified on the Internet
+- Must be unique across the entire web
+
+
+Private IP:
+===========
+
+* Can be identified on a private network only
+* IP must be unique across the private network
+* Machines access the WWW using the Internet Gateway (a Proxy)
+* Only a specified range of IP's can be used as Private IP
