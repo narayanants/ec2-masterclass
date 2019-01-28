@@ -1,0 +1,12 @@
+What is EC2?
+
+
+* Popular computing service offered by AWS
+* Consists of the following
+
+	- Renting Virtual Machines (EC2)
+	- Storing data on virtual Drives (EBS)
+	- Distributing Load Across Machines (ELB)
+	- Scaling services using Auto Scaling Group (ASG)
+	
+	
