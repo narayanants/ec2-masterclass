@@ -1,0 +1,16 @@
+Referencing other Security Groups:
+----------------------------------
+
+ - It is possible to have security group rules using other security group instead of IP Ranges (CIDR) 
+ 
+ - This is for enhanced security in AWS
+ - The Security group can even reference itself
+ 
+ 
+ Use cases:
+ -----------
+ 
+	- EC2 to EC2 direct communication within Security Groups
+	- Public ELB - Private EC2 instances
+	- Having rules that are more flexible than IP Ranges
+	
