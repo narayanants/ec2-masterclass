@@ -1,0 +1,28 @@
+EC2 Machine Images (AMI):
+==========================
+
+* base Image such as
+
+	- Ubuntu
+	- Fedora
+	- OpenSUSE
+	- RedHat
+	- Windows
+	
+
+Why would you use a Custom AMI?
+
+	- Pre-installed Packages
+	- Faster Boot Time
+	- Machine comes configured with monitoring /enterprise software
+	- Security Concerns- control over the machines in the network
+	- Control of maintenance updates of AMIs over time
+	
+* AMI's are built for specific AWS regions !!
+* AMI's live on S3
+* By Default, All AMI's are Private
+
+
+	
+
+	
