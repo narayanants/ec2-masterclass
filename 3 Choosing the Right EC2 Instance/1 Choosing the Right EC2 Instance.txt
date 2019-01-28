@@ -1,0 +1,11 @@
+Choosing the Right EC2 Instance:
+================================
+
+* RAM
+* CPU
+* IO
+* Network
+* GPU
+
+
+* Compare EC2 instance at www.ec2instances.info
