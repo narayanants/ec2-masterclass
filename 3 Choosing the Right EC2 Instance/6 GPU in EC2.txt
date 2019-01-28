@@ -1,0 +1,22 @@
+GPU in EC2:
+============
+
+	- Graphical Processing Unit
+	- Features
+	
+		- NO of Cores
+		- Internal GPU Memory
+		
+
+When is GPU Used?
+
+	- To Process videos, video conversion
+	- To Perform Computations
+	- To Perform Machine Learning (Deep Learning, Speech Recognition)
+	
+
+GPU in EC2:
+-----------
+
+	- P Generation (P3 Latest)
+	- G Generation (G3 Latest)
