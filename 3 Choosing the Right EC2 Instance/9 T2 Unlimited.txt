@@ -1,0 +1,6 @@
+T2 unlimited:
+-------------
+
+	- Unlimited Burst credit balance
+	- You pay extra if you go over your credit balance, but you don't loose performance.
+	
