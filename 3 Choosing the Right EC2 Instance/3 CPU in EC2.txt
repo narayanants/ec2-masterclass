@@ -1,0 +1,23 @@
+CPU in EC2:
+============
+
+* CPU - Central Processing Unit 
+* Brain of the computer
+* Piece of Hardware that carries out the instructions of a computer program.
+* Arithmetical,logical, IO operations of a computer.
+
+Components of a CPU:
+---------------------
+
+	* Made up of multiple cores.
+	* Frequency (in GHz )
+	
+When is the CPU Used?
+
+	- During every computation CPU is used.
+	
+	
+CPU in EC2:
+---------------
+
+* C Generation instances
