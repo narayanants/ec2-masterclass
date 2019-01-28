@@ -1,0 +1,29 @@
+IO in EC2:
+==========
+
+* I/O is the concept of writing or reading from a disk.
+* Latency
+* I/O Performance
+* IOPS
+
+
+When is I/O used?
+-----------------
+
+* Any time the application will read and write to disk, IO will be used.
+* As startup, the OS will read from the disk
+* iostat
+* IO are heavily used by databases.
+
+* If IO is not large enough, you will get
+	
+	- Timeouts
+	- Slowdowns
+	- Crashes
+	
+IO in EC2:
+==========
+
+* Some machines come with attached disks or optimized to read from EBS volumes.
+* These machines are I generation (Currently I3) - SSD Backed Instance storage optimized for low latency, very high random IO.
+* Other machines that support high IO are of H or D (MapReduce,HDFS,Big Data, Kafka) 
