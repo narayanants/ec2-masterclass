@@ -1,0 +1,8 @@
+EBS Volume Snapshotting:
+------------------------
+
+	- Snapshot take the actual block of the volume
+	- They are stored in S3
+	- For backups
+	- Volume Migration
+	
