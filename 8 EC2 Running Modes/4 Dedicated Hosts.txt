@@ -1,0 +1,8 @@
+Dedicated Hosts:
+----------------
+
+	- Reserved entire host on EC2 cloud
+	- License model
+	- Strong Regulatory Compliance
+	
+	
