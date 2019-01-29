@@ -1,0 +1,4 @@
+EBS Volumes Resizing Hands on:
+-------------------------------
+
+	- sudo resize2fs /dev/xvdf
