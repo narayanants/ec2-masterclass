@@ -1,7 +1,7 @@
 EC2 Machine Images (AMI):
 ==========================
 
-* base Image such as
+* Base Image such as
 
 	- Ubuntu
 	- Fedora
