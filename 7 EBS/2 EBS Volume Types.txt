@@ -1,0 +1,37 @@
+EBS Volume Types:
+-----------------
+
+* GP2:
+
+	- Recommended for most workloads
+	- Dev and Test Environments
+	- 1GB - 16 TB
+	- Max 10,000 IOPS
+	- Max throughput  of 160 MB/S
+	
+* IO1:
+
+	- Critical business apps that require sustained IOPS
+	- Large Database workloads
+	- MongoDB, Cassandra, MySQL,PostgreSQL
+	- 4 GB - 16 TB
+	- Max 32,000 IOPS
+	- Max throughput is 500 MB/s
+	
+* ST1:
+
+	- Streaming workloads
+	- Big Data, Log Processing, Data Warehousing
+	- Not a boot volumes
+	- 500 GB - 16 TB
+	- Max IOPS 500
+	- Max throughput 500 MB/s - can burst
+	
+* SC1 :
+
+	- Throughput Oriented
+	- Infrequently accessed data
+	- Not a boot volumes
+	- 500 GB - 16 TB
+	- Max IOPS is 250
+	- Max throughput is 250 MB/s - can burst 
