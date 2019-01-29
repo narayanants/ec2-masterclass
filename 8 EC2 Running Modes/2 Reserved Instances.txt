@@ -1,0 +1,13 @@
+Reserved Instances:
+-------------------
+
+	- Easy to optimize Costs
+	- Provide you with capacity reservation in AZ
+	
+	Types of Reserved Instances:
+	-----------------------------
+	
+		- Convertible RI (54 % discount)
+		- Scheduled RI
+		
+		
