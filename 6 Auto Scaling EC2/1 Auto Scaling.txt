@@ -1,0 +1,13 @@
+What is Auto Scaling:
+---------------------
+
+	- Achieve full automation for your infrastructure
+	- In real life, the load on your websites and application can change.
+	- In cloud, you can create and get rid of servers very quickly
+	
+	The goal of ASG
+	
+		- Scale Out
+		- Scale In
+		- Minimum and maximum no of machines running
+		- Automatically register new instances to a load balancer.
