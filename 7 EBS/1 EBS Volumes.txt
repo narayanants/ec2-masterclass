@@ -1,0 +1,24 @@
+EBS Volumes:
+=============
+
+	- EC2 machine will lose the root volume when it gets terminated.
+	- EBS volumes are a network drive that you can attach to your instances while they run.
+	- Allows instance to persist data.
+	
+	- Its a network drive
+	- It can be detached and attached to an instance very quickly
+	- Locked to an AZ
+	
+	
+	
+	Types:
+	
+		GP2 - SSD
+		IO1 - SSD
+		ST1 - HDD
+		SC1 - HDD
+		Magnetic 
+		
+	EBS volumes are characterized in Size | Throughput | IOPS
+	
+	
