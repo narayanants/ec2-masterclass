@@ -1,0 +1,15 @@
+Application Load Balancer:
+--------------------------
+
+	- Layer 7 Load Balancer
+	- Load Balancing  to multiple HTTP application across machines
+	- LB based on route in URL
+	- LB based on hostname in URL
+	- They are awesome for microservices & container based application
+	
+	
+Demo:
+-----
+
+	- Create Target Groups
+	- Assign Target Groups to Application Load Balancer.
