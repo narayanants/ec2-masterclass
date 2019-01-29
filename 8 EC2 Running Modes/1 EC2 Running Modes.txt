@@ -1,0 +1,9 @@
+EC2 Running Modes:
+------------------
+
+	- On Demand Instances
+	- Spot Instances
+	- Reserved Instances
+	- Dedicated Hosts
+	
+	
