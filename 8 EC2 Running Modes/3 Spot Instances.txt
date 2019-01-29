@@ -1,0 +1,20 @@
+Spot Instances:
+---------------
+
+	- Spare Capacity in AWS Cloud
+	- Reason AWS gives such a discount is if they didn't sell that instance,it would just loose the money.
+	
+	
+Use Cases:
+===========
+
+	- Highly available web application
+	- Containerized Web Services
+	- Image rendering
+	- Big Data Analytics
+	- Big Parallel Computations
+	
+	Do not run critical jobs on EC2 if you can't tolerate failure.
+	
+	- Lot of engineering required to run an reliable application in EC2 Spot Instances.
+	
