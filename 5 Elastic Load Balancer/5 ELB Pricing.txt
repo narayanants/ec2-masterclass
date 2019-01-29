@@ -1,0 +1,15 @@
+ELB Pricing:
+-----------
+
+	Classic LB - Hourly Charge + per GB that goes through
+	ALB and NLB - 
+	
+		- Hourly charge
+		- Number of LCU  (Load Balancer Capacity Units) consumed:
+		
+		* New Connections
+		* Active Connections
+		* Bandwidth
+		* Rules Evaluation
+		
+		
