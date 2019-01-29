@@ -10,7 +10,7 @@ Components of a CPU:
 ---------------------
 
 	* Made up of multiple cores.
-	* Frequency (in GHz )
+	* Frequency (in GHz)
 	
 When is the CPU Used?
 
