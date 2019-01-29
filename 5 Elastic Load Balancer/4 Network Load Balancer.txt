@@ -1,0 +1,16 @@
+Network Load Balancer:
+-----------------------
+
+	- They operate at the Layer 4
+	- Forward TCP Traffic
+	- Handles millions of request per second
+	- Support for Static or Elastic IP
+	- Less Latency ~ 100ms
+	
+	
+	- Network Load Balancers are used when you need extreme performance and should not be the default load balancer that you choose.
+	
+	
+	- Use an Application Load Balancer for Common Use Cases.
+	
+	
