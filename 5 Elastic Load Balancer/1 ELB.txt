@@ -1,0 +1,34 @@
+Load Balancing in EC2:
+-----------------------
+
+- Load Balancers are servers that forward internet traffic to multiple servers (EC2 Instancs) Downstream
+
+Why use a ELB?
+
+	- Spread load across multiple downstream instances
+	- Expose a single point of access (DNS) to your application.
+	- seamlessly handle failures of downstream instances
+	- Do regular health checks to your instances.
+	- Provide SSL Termination (HTTPS) for your websites.
+	- Enforce Stickiness with cookies
+	- High Availability across Zones
+	- Separate public traffic from private traffic
+	
+	
+Why use an EC2 Load Balancer?
+
+	- ELB is a managed Load Balancer.
+	- Costs less to setup your own load balancer, but will be a lot more effort on your end.
+	- Integrates with various AWS Services.
+	
+
+Types of Load Balancers:
+-------------------------
+
+	- Classic
+	- Application
+	- Network
+	
+	
+	
+- You can setup internal(private) or external (public) ELBs
